@@ -85,7 +85,7 @@ public class MainManager : MonoBehaviour
         m_Points += point;
         ScoreText.text = $"Score : {m_Points}";
 
-        if(highScore< m_Points )
+        if(highScore < m_Points )
         {
             highScore = m_Points;
             topPlayerName = playerName.text;
